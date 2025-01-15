@@ -2,7 +2,7 @@
 //import getAllProducts from '../services/productService';
 
 import { Request, Response } from 'express';
-//เรียกใช้งานฟังชั่นทั้งหมดจากไฟล์ services/productService.ts
+//เรียกใช้งานฟังชั่นทั้งหมดจากไฟล์ services/productService.ts     
 import * as productService from '../services/productService';
 
 //อ่านข้อมูลสินค้าทั้งหมด
