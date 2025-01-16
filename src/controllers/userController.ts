@@ -79,7 +79,7 @@ export const refreshToken = async (req: Request & {
         return;
     }
 
-    if (!jwtUtils.verifyRefreshToken(refreshToken)) {
+    if (!jwtUtils.isRefreshTokenValid(refreshToken)) {
         res.status(403).json({
             message: 'Invalid refresh token'
         });
